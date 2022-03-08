@@ -5,6 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
+const fs = require('fs');
 
 var indexRouter = require('./routes/index');
 
