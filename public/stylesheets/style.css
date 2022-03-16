@@ -31,23 +31,21 @@ body {
 .row {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 /*column for initial invisible cards*/
 .column2 {
   float: left;
   flex: 0 1 auto;
-  padding: 5px;
+  padding: 10px;
   visibility: hidden;
   font-size: 40px;
 }
 
+
 .button {
   height: 70px;
   width: 70px;
-  margin: 20px;
-  padding: 20px;
   border: 2px solid rgb(56, 56, 56);
   cursor: pointer;
   font-family: 'Montserrat';
