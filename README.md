@@ -1,16 +1,6 @@
 # Wordlebot
 
-This wordlebot solves wordles through frequency analysis. It assigns weights to each word based on the letters inside. The following is the weight policy
-
-Green
-Sets incorrect placements to weight=0
-Adds each correct placement weight 3
-
-Yellow
-Sets correct placements to weight=0
-Adds incorrect placements weight 1
-
-The remaining words add weight to each letter of the alphabet, the letters with the most weight are combined into optimal words
+This wordlebot solves wordles through frequency analysis. It has a dictionary with all the possible words in wordle, and determines the optimal word in that list. It refines the list based on feedback from the wordle, all greens, yellows, and blacks give information that take words out of the possible word list.
 
 Command to use
 `npm run dev`
